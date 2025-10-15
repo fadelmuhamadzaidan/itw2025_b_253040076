@@ -6,19 +6,46 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1">
+    <table border="1" style="background-color: lightblue;"
+    <thead>
         <tr>
-            <th>Data Mahasiswa</th>
+            <th colspan="6">Data Mahasiswa</th>
         </tr>
         <tr>
-            <td>No.</td>
-            <td>Nrp</td>
+            <th rowspan="2">No</th>
+            <th rowspan="2">NRP</th>
+            <th colspan="2">Nama</th>
+            <th rowspan="2">Alamat</th>
+            <th rowspan="2">No. Hp</th>
         </tr>
-        
-   
+        <tr class="t-judul">
+            <th>Nama Depan</th>
+            <th>Nama Belakang</th>
+        </tr>
 
-
-
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>113040001</td>
+                <td>Asep</td>
+                <td>Setia</td>
+                <td>Setiabudhi</td>
+                <td>081234567890</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">1130400011</td>
+                <td rowspan="2">Dani</td>
+                <td rowspan="2">Gunawan</td>
+                <td rowspan="2">Lembang</td>
+                <td>089038131212</td>
+            </tr>
+            <tr>
+                <td>089699385631 </td>
+            </tr>
+        </tbody>
+     </thead>
   </table>
 </body>
 </html>
