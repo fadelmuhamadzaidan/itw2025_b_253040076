@@ -1,0 +1,36 @@
+body {
+  background-image: url(/latihan/latihan3/background.png);
+  background-repeat: repeat-x;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+h1 {
+  font-family: Comic Sans MS;
+  color: blue;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+}
+h3 a {
+  color: red;
+}
+
+h4 {
+  font-style: italic;
+}
+.mark:hover {
+  background-color: blue;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+.p1 {
+  color: brown;
+}
+
+.sosmed:hover {
+  color: red;
+}

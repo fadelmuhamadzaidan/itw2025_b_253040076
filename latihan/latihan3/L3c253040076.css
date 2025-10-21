@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: Comic Sans MS;
+  color: blue;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+}
+h3 a {
+  color: white;
+}
+
+h4 {
+  text-align: end;
+  font-style: italic;
+}
+.mark:hover {
+  background-color: blue;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+.p1 {
+  color: brown;
+}
+
+.sosmed:hover {
+  color: red;
+}

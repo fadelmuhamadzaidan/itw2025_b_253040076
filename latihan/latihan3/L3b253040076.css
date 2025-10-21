@@ -1,0 +1,17 @@
+body{
+    background-color: gold;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+}
+h3 a {
+    color: white;
+}
+
+h4{
+    text-align: end;
+}
