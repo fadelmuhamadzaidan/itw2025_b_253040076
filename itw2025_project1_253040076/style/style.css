@@ -65,6 +65,21 @@ a {
   width: 1200px;
   margin: 0 auto;
 }
+section{
+  scroll-margin-top: 80px;
+}
+.nav{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  align-items: center;
+  z-index: 5;
+  width: 100%;
+  padding: 4rem 12% 4rem;
+  background-color: white;
+}
 
 @media screen and (max-width: 1200px) {
   .main-container {
@@ -476,4 +491,41 @@ footer {
 
 .footer-icons a:hover svg {
   fill: #000;
+}
+
+/* fun fact */
+#fun-fact {
+  padding: 4rem 0;
+}
+
+.section-title{
+  text-align: center;
+}
+
+/* GRID RESPONSIVE */
+.funfact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* CARD */
+.funfact-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.funfact-card:hover {
+  transform: translateY(-5px);
+}
+
+.funfact-card span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
 }

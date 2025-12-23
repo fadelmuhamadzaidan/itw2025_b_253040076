@@ -124,3 +124,24 @@
     font-size: 0.7rem;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .funfact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 📱 MOBILE */
+@media screen and (max-width: 600px) {
+  .funfact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .funfact-card {
+    padding: 1.2rem;
+  }
+
+  .funfact-card p {
+    font-size: 0.9rem;
+  }
+}
