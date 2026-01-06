@@ -102,6 +102,11 @@ nav {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.gambar-home {
+  height: 700px;
+  object-fit: cover;
+}
+
 
 /* GRID RESPONSIVE */
 .gallery-image {
